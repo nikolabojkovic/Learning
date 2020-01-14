@@ -1,0 +1,9 @@
+<Modules>
+  <Module PersistentId="E9FD765A-521C-4BD5-AAF7-21FDEF4FD868" ModuleId="State" />
+  <Module PersistentId="d:Miscellaneous Files" ModuleId="System.Xml" />
+  <Module PersistentId="52318CB1-5816-4B83-A968-15AB6D34C804" ModuleId="WorkItemDomain" />
+  <Module PersistentId="132ED413-B446-4B81-8210-F9128ED3B922" ModuleId="WorkItemAdvanced" />
+  <Module PersistentId="32D42866-A86A-4FAF-83C8-4D6DF227C61D" ModuleId="WorkItem.Tests" />
+  <Module PersistentId="E1B840BA-B094-4225-9843-1879E9D094BB" ModuleId="WorkItemSimple.Tests" />
+  <Module PersistentId="25488DA3-A70E-4D02-8C4C-AE4F73F9CD84" ModuleId="WorkItemAdvanced.Tests" />
+</Modules>

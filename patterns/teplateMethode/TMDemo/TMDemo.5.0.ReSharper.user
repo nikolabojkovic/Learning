@@ -1,0 +1,93 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="FBECFB5F-DCE0-4593-916B-71DB283015C9/f:Default.aspx" caret="155" fromTop="0" />
+      <File id="FBECFB5F-DCE0-4593-916B-71DB283015C9/f:Web.config" caret="1902" fromTop="45" />
+      <File id="FBECFB5F-DCE0-4593-916B-71DB283015C9/f:Default.aspx.cs" caret="344" fromTop="14" />
+      <File id="FBECFB5F-DCE0-4593-916B-71DB283015C9/f:ProcessOrder.aspx" caret="141" fromTop="0" />
+      <File id="FBECFB5F-DCE0-4593-916B-71DB283015C9/f:ProcessOrder.aspx.cs" caret="1215" fromTop="13" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="FBECFB5F-DCE0-4593-916B-71DB283015C9/f:Web.config" caret="1902" fromTop="45" />
+      <File id="FBECFB5F-DCE0-4593-916B-71DB283015C9/f:ProcessOrder.aspx" caret="142" fromTop="0" />
+      <File id="FBECFB5F-DCE0-4593-916B-71DB283015C9/f:ProcessOrder.aspx.cs" caret="933" fromTop="11" />
+      <File id="FBECFB5F-DCE0-4593-916B-71DB283015C9/f:ProcessOrder.aspx.cs" caret="2139" fromTop="32" />
+      <File id="FBECFB5F-DCE0-4593-916B-71DB283015C9/f:ProcessOrder.aspx.cs" caret="2139" fromTop="39" />
+      <File id="FBECFB5F-DCE0-4593-916B-71DB283015C9/f:ProcessOrder.aspx.cs" caret="1080" fromTop="16" />
+      <File id="FBECFB5F-DCE0-4593-916B-71DB283015C9/f:ProcessOrder.aspx" caret="141" fromTop="0" />
+      <File id="FBECFB5F-DCE0-4593-916B-71DB283015C9/f:ProcessOrder.aspx.cs" caret="874" fromTop="11" />
+      <File id="FBECFB5F-DCE0-4593-916B-71DB283015C9/f:ProcessOrder.aspx.cs" caret="874" fromTop="21" />
+      <File id="FBECFB5F-DCE0-4593-916B-71DB283015C9/f:Default.aspx.cs" caret="344" fromTop="14" />
+      <File id="FBECFB5F-DCE0-4593-916B-71DB283015C9/f:ProcessOrder.aspx.cs" caret="872" fromTop="16" />
+      <File id="FBECFB5F-DCE0-4593-916B-71DB283015C9/f:ProcessOrder.aspx.cs" caret="808" fromTop="14" />
+      <File id="FBECFB5F-DCE0-4593-916B-71DB283015C9/f:ProcessOrder.aspx.cs" caret="1241" fromTop="12" />
+      <File id="FBECFB5F-DCE0-4593-916B-71DB283015C9/f:ProcessOrder.aspx.cs" caret="1689" fromTop="16" />
+      <File id="FBECFB5F-DCE0-4593-916B-71DB283015C9/f:ProcessOrder.aspx.cs" caret="1943" fromTop="15" />
+      <File id="FBECFB5F-DCE0-4593-916B-71DB283015C9/f:ProcessOrder.aspx.cs" caret="1622" fromTop="18" />
+      <File id="FBECFB5F-DCE0-4593-916B-71DB283015C9/f:ProcessOrder.aspx.cs" caret="1530" fromTop="14" />
+      <File id="FBECFB5F-DCE0-4593-916B-71DB283015C9/f:ProcessOrder.aspx.cs" caret="1874" fromTop="21" />
+      <File id="FBECFB5F-DCE0-4593-916B-71DB283015C9/f:ProcessOrder.aspx.cs" caret="2132" fromTop="30" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.7\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="override" priority="2" />
+      <Item value="Trace" priority="2" />
+      <Item value="Response" priority="5" />
+      <Item value="public" priority="5" />
+      <Item value="abstract" priority="1" />
+      <Item value="class" priority="1" />
+      <Item value="void" priority="0" />
+      <Item value="if" priority="1" />
+      <Item value="string" priority="2" />
+      <Item value="OrderShipment`0" priority="0" />
+      <Item value="String`0" priority="1" />
+      <Item value="ShippingAddress" priority="1" />
+      <Item value="new" priority="2" />
+      <Item value="ApplicationException" priority="0" />
+      <Item value="Label" priority="1" />
+      <Item value="ChtmlTextWriter`0" priority="0" />
+      <Item value="TextWriter`0" priority="1" />
+      <Item value="writer" priority="0" />
+      <Item value="var" priority="0" />
+      <Item value="UpsOrderShipment`0" priority="0" />
+      <Item value="upsOrder" priority="1" />
+      <Item value="Console`0" priority="0" />
+      <Item value="virtual" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpResponse">
+      <Item value="Write`0" priority="4" />
+      <Item value="Output" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.TraceContext">
+      <Item value="Warn`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="IsNullOrEmpty`0" priority="0" />
+      <Item value="Format`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.TextWriter">
+      <Item value="Write`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TMDemo.UpsOrderShipment">
+      <Item value="ShippingAddress" priority="1" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>
