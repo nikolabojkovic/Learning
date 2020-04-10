@@ -9,8 +9,6 @@ namespace BFS_matrix_shortest_distance
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-
             int matrixRows = 3;
             int matrixColumns = 3;
             int [,] matrix = new int [matrixRows,matrixColumns];
@@ -46,7 +44,7 @@ namespace BFS_matrix_shortest_distance
             matrix2[2][0] = 1; matrix2[2][1] = 1; matrix2[2][2] = 1; matrix2[2][3] = 9;
             matrix2[3][0] = 1; matrix2[3][1] = 0; matrix2[3][2] = 1; matrix2[3][3] = 1;
             matrix2[4][0] = 1; matrix2[4][1] = 1; matrix2[4][2] = 1; matrix2[4][3] = 0;
-            Console.WriteLine($"Shortest distance path is: {FindShortestPath(matrix2)}");
+            Console.WriteLine($"Shortest distance path is: {FindShortestPath(matrix2, 0, 0)}");
             PrintMatrix2<int>(matrixRows, matrixColumns, matrix2);
         }
         static void PrintMatrix2<T>(int rows, int columns, T [][] matrix)
@@ -150,7 +148,7 @@ namespace BFS_matrix_shortest_distance
             return -1;
         }
 
-        public static string FindShortestPath(int[][] matrix)
+        public static string FindShortestPath(int[][] matrix, int startingRow, int startingColumn)
         {
             // Guard validation
             if (matrix.Length == 0)
@@ -163,7 +161,7 @@ namespace BFS_matrix_shortest_distance
             }
 
             Queue<Visitor> visitors = new Queue<Visitor>();
-            visitors.Enqueue(new Visitor(0, 0, 0, "(0, 0)"));
+            visitors.Enqueue(new Visitor(startingRow, startingColumn, 0, $"({startingRow}, {startingColumn})"));
 
             bool[][] visited = FlagVisited(matrix);
 
@@ -243,17 +241,17 @@ namespace BFS_matrix_shortest_distance
         public int Row { get; private set; }
         public int Column { get; private set; }
         public int Distance { get; private set; }
-        public string Path { get; set; }
+        public string Path { get; private set; }
     }
 }
 
 
 // Solution:
-// This approach uses BFS - Breadth First Search algorithm to find a shortest distance.
+// This approach uses BFS - Breadth First Search algorithm to find the shortest distance.
 // First mark cells which are not able to visit as visited and store results in separate matrix.
 // Then queue of visitors is created and while loop will enqueue new visitors for next level if possible.
 // Visitor intention is to store info about current position, traveled distance and path.
-// Then while loop will do a condition for check if visitor reached the destination,
-// if not then new visitor will be Enqued for next level if next level position is in matrix range
-// While loop will check next levels on the same way until queue becames empty or destination has been reached
-// If destination has not been found -1 will be returned.
+// Then while loop will do a condition to check if visitor reached the destination,
+// if not then new visitor will be Enqued for the next level if the next level position is in the range of the matrix 
+// While loop will check next levels in the same way until queue becames empty or destination has been reached
+// If destination has not been found 0 distance will be returned.
